@@ -1,0 +1,17 @@
+header {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+header > nav .container-fluid{
+    margin: 0px;
+    padding: 0 24px;
+    height: 64px;
+    width: 100%;
+}
+header > nav .container-fluid .middle a{
+   display: table-cell;
+   padding: 16px 8px;
+}

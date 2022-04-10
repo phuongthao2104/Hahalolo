@@ -1,0 +1,143 @@
+.content_item{
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+.bg-light .container-sm .row .content_item{
+    padding: 8px;
+}
+.content_item .card img{
+    height: 154px;
+}
+.content_item .card-body{
+    height: 191px;
+}
+.bg-light{
+    background-image: url("http://cdn.reatimes.vn/mediav2/media_old/upload/Daz8bLLgWiyONlYhLXFY7g/files/cac-mau-bungalow-trong-resort-5.jpg");
+    background-repeat: no-repeat;  
+    background-size: 800px;
+    background-position: right top;
+}
+.bg-light .container-sm{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.container-sm .row{
+    margin-top: 17px;
+    border-radius: 4px;  
+
+}
+.bg-light .container-sm .text 
+{
+    padding-top: 20px ;
+    margin-left: 20px;
+}
+
+.text1{
+    font-size: 35px;
+    font-weight: 700;
+    font-style: italic;
+  }
+  .search_box{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 50px;
+  }
+  
+  section{
+    margin-top:20px;
+  }
+  .wrap-input {
+      margin-right: 10px;
+      margin-left: 10px;
+      display: flex;
+      position: relative;
+      align-items: center;
+     
+  }
+  .search_box_location{
+    margin-left: 20px;
+  }
+  .search_box_item{
+    border-bottom:1px solid rgb(214, 204, 204);
+  }
+  .search_box_item:hover{
+    border-bottom: 1px solid #24a8d8;
+  }
+  .search_box_date{
+    width: 200px;
+    box-sizing: border-box;
+    margin-left: 20px;
+  }
+  .search_box_people {
+    margin-left: 20px;
+  }
+  .btn_search{
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-color: #24a8d8;
+    margin-left: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 20px;
+  }
+  .btn_search p:nth-child(1){
+  color: white;
+  font-size: 20px;
+  
+  box-sizing: border-box;
+  
+  }
+  .btn_search p:nth-child(2){
+    width: 100%;
+    color: red;
+    position: absolute;
+    top: 50px;
+    color: #24a8d8;
+  }
+  
+  
+  .form-control{
+    border-top: none !important;
+    border-right: none !important;
+    border-left: none !important;
+    border-bottom: none !important;
+    border-radius: 0px !important;
+    
+  }
+  .fa-calendar{
+    color: rgb(36, 168, 216);
+  }
+  .input-group-text{
+    border-top: none !important;
+    border-right: none !important;
+    border-left: none !important;
+    border-bottom: none !important;
+    border-radius: 0px !important;
+  }
+  .wrap-input input{
+    padding-left: 30px;
+    padding-right: 50px;
+    padding-bottom: 5px;
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    
+  }
+  
+  .wrap-input span:nth-child(1){
+    position: absolute;
+    color: #24a8d8;
+  }
+  .wrap-input span:nth-child(3){
+    position: absolute;
+    color: rgb(214, 204, 204);
+    right: 0;
+  
+  }
+  
+

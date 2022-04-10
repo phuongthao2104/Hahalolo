@@ -1,0 +1,56 @@
+.main{
+    margin-left: 35px;
+}
+
+.row-container {
+    border-left: 10px ;
+}
+
+.form-control> thead > tr > th{
+    border:1px solid rgb(50, 50, 53);
+}
+.btn_payment{
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-color: #24a8d8;
+    margin-left: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 20px;
+
+}
+
+.btn_payment p:nth-child(1){
+  color: white;
+  font-size: 20px;
+  
+  box-sizing: border-box;
+
+  }
+.btn_payment p:nth-child(2){
+    width: 100%;
+    color: red;
+    position: absolute;
+    top: 50px;
+    color: #24a8d8;
+}
+  
+.text_item_a{
+  display: block;
+  margin-left: auto;
+ }
+.card_titler .text_boder_item {
+    margin-left: 10px; margin-right: 10px
+  }
+.card_titler .text_boder_item .p_item{
+  width:60%; 
+  padding-left: 30px
+}
+.images_item_payment{
+  display: flex;
+}
+.images_item_payment .images_item_payment_body{
+  height: 20px;
+  width: 70px;
+}
